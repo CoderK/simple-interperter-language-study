@@ -73,4 +73,5 @@ def lex(input_value):
                 'value': identifier
             })
 
+    tokens.append({'type': TokenType.END})
     return tokens

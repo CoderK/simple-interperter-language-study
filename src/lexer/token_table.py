@@ -8,5 +8,7 @@ token_table = {
     '%': TokenType.MOD,
     '^': TokenType.POWER,
     '(': TokenType.L_PAREN,
-    ')': TokenType.R_PAREN
+    ')': TokenType.R_PAREN,
+    ',': TokenType.COMMA,
+    '=': TokenType.ASSIGN
 }

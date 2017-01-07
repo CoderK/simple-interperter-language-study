@@ -11,4 +11,9 @@ class TokenType(Enum):
     MOD = 6,
     POWER = 7,
     L_PAREN = 8,
-    R_PAREN = 9
+    R_PAREN = 9,
+    COMMA = 10,
+    CALL = 11,
+    FUNCTION = 12,
+    ASSIGN = 13,
+    END = 14
